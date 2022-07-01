@@ -13,8 +13,3 @@ docker-compose up -d
 
 **-d** significa que será executado em background e seu terminal não irá ficar travado e para matar o processo basta
 apertar `CTRL + C` no windows ou `Command + C` no mac.
-
-
-  - [Zend Modules]
-    - Xdebug
-    - Zend OPcache
