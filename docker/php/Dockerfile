@@ -25,7 +25,8 @@ RUN docker-php-ext-configure gd --with-freetype --with-jpeg
 
 # Install php dependencies
 RUN docker-php-ext-install \
-  -j$(nproc) \ pdo pdo_mysql pdo_pgsql opcache intl zip calendar dom mbstring gd xsl
+  -j$(nproc) \ 
+  pdo pdo_mysql pdo_pgsql opcache intl zip calendar dom mbstring gd xsl
 
 # Install pecl
 RUN pecl install xdebug && docker-php-ext-enable xdebug

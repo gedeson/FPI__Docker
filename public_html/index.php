@@ -1,3 +1,3 @@
 <?php
-echo ' teste';
+echo ' PDR 2023';
 phpinfo();
